@@ -29,17 +29,36 @@ body {
 }
 
 .display-one {
+    display: flex;
     height: 50px;
     width: 290px;
     border: 2px dashed white;
+    color: white;
 }
 
 .display-two {
+    display: flex;
     height: 80px;
     width: 290px;
     border: 2px dashed white;
+    color: white;
 }
 
+.displayMsg-one {
+    border: 2px dashed white;
+    width: 100%;
+    height: 30px;
+    text-align: end;
+}
+
+.displayMsg-two {
+    border: 2px dashed white;
+    width: 100%;
+    height: 50px;
+    margin-top: 18px;
+    font-size: 40px;
+    text-align: end;
+}
 
 .button {
     border-radius: 50%;
