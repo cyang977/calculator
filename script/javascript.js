@@ -15,6 +15,13 @@ operateButton.addEventListener('click', () => {
     operate(displayMsgTwo.textContent);
 });
 
+const acButton = document.querySelector('.ac') 
+acButton.addEventListener('click', () => {
+    displayArrayValues.length = 0;
+    displayMsgOne.textContent = "";
+    displayMsgTwo.textContent = "";
+})
+
 
 //testing();
 
