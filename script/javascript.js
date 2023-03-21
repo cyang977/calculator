@@ -1,4 +1,22 @@
 const grid = document.querySelector('.button-area');
+
+function addOperands(a, b) {
+    return a + b;
+}
+
+function subtractOperands(a, b) {
+    return a - b;
+}
+
+function multiplyOperands(a, b) {
+    return a * b;
+}
+
+function divideOperands(a, b) {
+    return a / b;
+}
+
+
 /*createButtons();
 
 
